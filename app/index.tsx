@@ -1,11 +1,15 @@
+import tw from 'twrnc';
+import { StatusBar } from 'expo-status-bar';
 import { Text, View } from "react-native";
+import { Link } from 'expo-router'
 
-export default function Index() {
-  return (
-    <View
-      className="flex-1 justify-center items-center bg-white"
-    >
-      <Text className="text-3xl">Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+
+export default function App() {
+    return (
+        <View style={tw`flex-1 items-center justify-center bg-white`}>
+            <Text style={tw`text-3xl`}>Hello! I am starting from Home</Text>
+            <StatusBar style='auto' />
+            
+        </View>
+    )
 }
