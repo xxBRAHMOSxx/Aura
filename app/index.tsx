@@ -8,7 +8,7 @@ export default function App() {
 
     return (
         <View style={tw`flex-1 items-center justify-center bg-white `}>
-            <Text className='`text-3xl font-pBlack`'>Aura</Text>
+            <Text style={tw`text-3xl`}>Aura</Text>
             <StatusBar style='auto' />
             
         </View>
